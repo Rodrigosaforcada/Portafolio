@@ -1,0 +1,7 @@
+.menu_principal__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 50vw;
+}

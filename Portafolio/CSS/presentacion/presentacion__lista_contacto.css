@@ -1,0 +1,7 @@
+.presentacion__lista_contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 50vw;
+}
