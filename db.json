@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "perfil": [
+    {
+      "id": 1,
+      "nombre": "Rodrigo",
+      "apellido": "Saforcada"
+    },
+    {
+      "id": 2,
+      "nombre": "Maria",
+      "apellido": "Ramirez"
+    }
+  ]
+}

@@ -18,16 +18,31 @@
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__lista_contacto--imagen_vinculo.css">
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__foto.css">
     <link rel="stylesheet" href="./CSS/sobre-mi/sobre_mi.css">
+    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies.css">
+    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills--titulo.css">
+    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills.css">
+    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills--item.css">
+    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies--titulo.css">
+    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies.css">
+    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies--item.css">
+    <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion.css">
+    <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion__titulo.css">
+    <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion__contenedor_formaciones.css">
+    <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion__item.css">
+    <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia.css">
+    <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__titulo.css">
+    <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__contenedor_proyectos.css">
+    <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__item.css">
     <title>Portafolio</title>
 </head>
 <body>
     <section class="menu_principal">
         <ul class="menu_principal__lista">
             <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#sobre-mi">Sobre mi</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#">Skills</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#">Hobbies</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#">Formación</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#">Proyectos</a></li>
+            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#skills">Skills</a></li>
+            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#hobbies">Hobbies</a></li>
+            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#formacion">Formación</a></li>
+            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#experiencia">Proyectos</a></li>
             <li class="menu_principal__lista--item">saforcadarodrigo@gmail.com</li>
         </ul>
     </section>
@@ -51,17 +66,68 @@
     <section class="sobre_mi" id="sobre-mi">
         <div class="sobre_mi__contenedor_texto">
             <p class="sobre_mi__descripcion_breve">
-                Tras estudiar durante tres años Administración de Empresas, me di cuenta que debia enfocarme enfocarme en aprender las nuevas 
+                Tras estudiar durante tres años Administración de Empresas, me di cuenta que debia enfocarme en aprender las nuevas 
                 tecnologias que estaban transformando la economia mundial, y entre ellas una de las mas solicitadas era la creación,
                 personalización y mantenimiento de páginas web. 
             </p>
             <p class="sobre_mi__descripcion_breve">
-                Por eso mismo, me dedico a su estudio e implementación para que aquellas personas u organizaciones que necesiten mi ayuda para 
-                dar a conocer sus propuestas y servicios a la comunidad a la que pertenecen puedan darse a conocer de la forma más efectiva y
+                Por eso mismo, me dedico a su estudio e implementación para que aquellas personas u organizaciones que necesiten dar 
+                a conocer sus propuestas y servicios a la comunidad a la que pertenecen puedan hacerlo de la forma más efectiva y
                 llamativa posible.
             </p>
         </div>
     </section>
+    <section class="skills_y_hobbies" id="skills-y-hobbies">
+
+        <h2 class="skills_y_hobbies__skills--titulo">Skills</h2>
+        <div class="skills_y_hobbies__skills" id="skills">
+            <div class="skills_y_hobbies__skills--item">Javascript</div>
+            <div class="skills_y_hobbies__skills--item">CSS</div>
+            <div class="skills_y_hobbies__skills--item">HTML</div>
+            <div class="skills_y_hobbies__skills--item">PHP</div>
+            <div class="skills_y_hobbies__skills--item">SQL</div>
+        </div>
+        
+        <h2 class="skills_y_hobbies__hobbies--titulo">Hobbies</h2>
+        <div class="skills_y_hobbies__hobbies" id="hobbies">
+            <div class="skills_y_hobbies__hobbies--item">Videojuegos</div>
+            <div class="skills_y_hobbies__hobbies--item">Gimnasio</div>
+            <div class="skills_y_hobbies__hobbies--item">Ver series</div>
+            <div class="skills_y_hobbies__hobbies--item">Escuchar música</div>
+            <div class="skills_y_hobbies__hobbies--item">Aprender idiomas</div>
+        </div>
+    </section>
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formacion</h2>
+        <div class="formacion__contenedor_formaciones">
+            <div class="formacion__item">UTN</div>
+            <div class="formacion__item">Alura</div>
+        </div>
+    </section>
+    <section class="experiencia" id="experiencia">
+        <h2 class="experiencia__titulo">Experiencia</h2>
+        <div class="experiencia__contenedor_proyectos">
+            <div class="experiencia__item">Codificador</div>
+            <div class="experiencia__item">Ahorcado</div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contacto__contenedor">
+            <div class="contacto__imagen">
+                <img src="./imagenes/foto_preparada.jpg">
+            </div>
+            <div class="contacto__datos_input">
+                <label>Conoscámonos</label>
+                <p>Puedo ayudarte a que ganes visibilidad en la red.</p>
+                <p>Completa el siguiente formulario para hacerlo posible:</p>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Asunto">
+                <input type="text" placeholder="Mensaje">
+            </div>
+        </div>
+    </section>
 </body>
 <!--<script src="./JS/warning.js"></script>-->
+<!--<script src="./JS/client-service.js"></script>-->
 </html>

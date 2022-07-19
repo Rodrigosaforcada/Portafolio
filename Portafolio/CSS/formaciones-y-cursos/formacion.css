@@ -1,0 +1,7 @@
+.formacion {
+    width: 92vw;
+    display: grid;
+    grid-template-rows: 40px 90px;
+    margin-left: 3rem;
+    margin-bottom: 20px;
+}

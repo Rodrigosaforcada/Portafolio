@@ -1,0 +1,4 @@
+.skills_y_hobbies__skills {
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+}

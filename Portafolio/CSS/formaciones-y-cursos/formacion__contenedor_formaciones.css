@@ -1,0 +1,4 @@
+.formacion__contenedor_formaciones {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
