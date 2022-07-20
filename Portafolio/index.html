@@ -33,6 +33,10 @@
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__titulo.css">
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__contenedor_proyectos.css">
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__item.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__contenedor.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--item.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--mensaje.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -114,20 +118,20 @@
     <section class="contacto" id="contacto">
         <div class="contacto__contenedor">
             <div class="contacto__imagen">
-                <img src="./imagenes/foto_preparada.jpg">
+                <img src="./imagenes/atender-telefono.jpg">
             </div>
             <div class="contacto__datos_input">
                 <label>Conoscámonos</label>
                 <p>Puedo ayudarte a que ganes visibilidad en la red.</p>
                 <p>Completa el siguiente formulario para hacerlo posible:</p>
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="E-mail">
-                <input type="text" placeholder="Asunto">
-                <input type="text" placeholder="Mensaje">
+                <input class="contacto__datos_input--item" type="text" placeholder="Nombre" required>
+                <input class="contacto__datos_input--item" type="text" placeholder="E-mail" required>
+                <input class="contacto__datos_input--item" type="text" placeholder="Asunto" required>
+                <input class="contacto__datos_input--item contacto__datos_input--mensaje" type="text" placeholder="Mensaje">
+                <button>Enviar</button>
             </div>
         </div>
     </section>
 </body>
 <!--<script src="./JS/warning.js"></script>-->
-<!--<script src="./JS/client-service.js"></script>-->
 </html>

@@ -1,0 +1,5 @@
+.contacto__datos_input--item {
+    width: calc(90vw * 0.35);
+    margin-bottom: 1rem;
+    height: 30px;
+}

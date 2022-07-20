@@ -1,0 +1,7 @@
+.contacto__contenedor {
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 55% 40%;
+}
