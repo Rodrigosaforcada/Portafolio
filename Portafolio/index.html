@@ -41,6 +41,8 @@
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__contenedor.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--item.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--mensaje.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--boton_enviar.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--label_resultado.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -61,10 +63,10 @@
                 <p class="presentacion__sub_titulo">Me dedico a hacer mas visibles tus propuestas y proyectos mediante aplicaciones y proyectos web.</p>
                 <ul class="presentacion__lista_contacto">
                     <li class="presentacion__lista_contacto--item">
-                        <a class="presentacion__lista_contacto--vinculo" href="https://www.linkedin.com/in/rodrigo-saforcada-6774a0210/">Linkedin
+                        <a class="presentacion__lista_contacto--vinculo" href="https://www.linkedin.com/in/rodrigo-saforcada-6774a0210/" target="_blank">Linkedin
                             <img class="presentacion__lista_contacto--imagen_vinculo" src="./imagenes/flecha.png"></a>
                     </li>
-                    <li class="presentacion__lista_contacto--item"><a class="presentacion__lista_contacto--vinculo" href="https://github.com/Rodrigosaforcada">Git Hub
+                    <li class="presentacion__lista_contacto--item"><a class="presentacion__lista_contacto--vinculo" href="https://github.com/Rodrigosaforcada" target="_blank">Git Hub
                         <img class="presentacion__lista_contacto--imagen_vinculo" src="./imagenes/flecha.png"></a></li>
                 </ul>
             </div>
@@ -156,14 +158,15 @@
                 <label>Conoscámonos</label>
                 <p>Puedo ayudarte a que ganes visibilidad en la red.</p>
                 <p>Completa el siguiente formulario para hacerlo posible:</p>
-                <input class="contacto__datos_input--item" type="text" placeholder="Nombre" required>
-                <input class="contacto__datos_input--item" type="text" placeholder="E-mail" required>
-                <input class="contacto__datos_input--item" type="text" placeholder="Asunto" required>
-                <input class="contacto__datos_input--item contacto__datos_input--mensaje" type="text" placeholder="Mensaje">
-                <button>Enviar</button>
+                <input class="contacto__datos_input--item" id="nombre" type="text" placeholder="Nombre" required>
+                <input class="contacto__datos_input--item" id="e-mail" type="text" placeholder="E-mail" required>
+                <input class="contacto__datos_input--item" id="asunto" type="text" placeholder="Asunto" required>
+                <input class="contacto__datos_input--item contacto__datos_input--mensaje" id="mensaje" type="text" placeholder="Mensaje">
+                <button class="contacto__datos_input--boton_enviar" type="submit" >Enviar</button>
+                <label class="contacto__datos_input--label_resultado">Mensaje de exito o fracaso en el envio</label>
             </div>
         </div>
     </section>
 </body>
-<!--<script src="./JS/warning.js"></script>-->
+<script src="./JS/resultadoEnvio.js" type="module"></script>
 </html>
