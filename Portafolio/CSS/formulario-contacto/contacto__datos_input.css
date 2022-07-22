@@ -1,0 +1,20 @@
+.contacto__datos_input {
+    font-family: Verdana, sans-serif;
+}
+
+.contacto__datos_input--item {
+    width: calc(90vw * 0.35);
+    margin-bottom: 1rem;
+    height: 30px;
+}
+
+.contacto__datos_input--boton_enviar {
+    font-family: Arial;
+    border-radius: 10px;
+    font-size: 120%;
+}
+.contacto__datos_input--label_resultado {
+    display: block;
+    font-family: Italic;
+    color: tomato;
+}

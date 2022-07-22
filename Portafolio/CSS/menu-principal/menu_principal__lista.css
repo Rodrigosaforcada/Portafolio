@@ -5,3 +5,12 @@
     list-style: none;
     width: 50vw;
 }
+
+.menu_principal__lista--item {
+    padding-left: 20px;
+}
+
+.menu_principal__lista--vinculo {
+    text-decoration: none;
+    color: black;
+}

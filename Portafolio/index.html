@@ -7,42 +7,26 @@
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/menu-principal/menu_principal.css">
     <link rel="stylesheet" href="./CSS/menu-principal/menu_principal__lista.css">
-    <link rel="stylesheet" href="./CSS/menu-principal/menu_principal__lista--item.css">
-    <link rel="stylesheet" href="./CSS/menu-principal/menu_principal__lista--vinculo.css">
     <link rel="stylesheet" href="./CSS/presentacion/presentacion.css">
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__contenedor.css">
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__contenedor_texto.css">
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__lista_contacto.css">
-    <link rel="stylesheet" href="./CSS/presentacion/presentacion__lista_contacto--item.css">
-    <link rel="stylesheet" href="./CSS/presentacion/presentacion__lista_contacto--vinculo.css">
-    <link rel="stylesheet" href="./CSS/presentacion/presentacion__lista_contacto--imagen_vinculo.css">
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__foto.css">
     <link rel="stylesheet" href="./CSS/sobre-mi/sobre_mi.css">
     <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies.css">
-    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills--titulo.css">
     <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills.css">
-    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills--item.css">
-    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills--image.css">
-    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies--titulo.css">
     <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies.css">
-    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies--item.css">
-    <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies--image.css">
     <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion.css">
     <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion__titulo.css">
     <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion__contenedor_formaciones.css">
     <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion__item.css">
-    <link rel="stylesheet" href="./CSS/formaciones-y-cursos/formacion__item--image.css">
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia.css">
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__titulo.css">
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__contenedor_proyectos.css">
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__item.css">
-    <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__item--image.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__contenedor.css">
-    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--item.css">
-    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--mensaje.css">
-    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--boton_enviar.css">
-    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input--label_resultado.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -141,11 +125,44 @@
     <section class="experiencia" id="experiencia">
         <h2 class="experiencia__titulo">Experiencia</h2>
         <div class="experiencia__contenedor_proyectos">
-            <div class="experiencia__item">Codificador
+            <div class="experiencia__item">
+                <h4>Codificador</h4>
+                <p>La aplicación web ofrece el usuario escribir un mensaje y convertirlo en un texto codificado 
+                    que solo podrá ser decodificado por otra persona que conozca y use la misma aplicación. El 
+                    algoritmo que perite codificar el mensaje se ejecuta al clickear sobre el respectivo botón 
+                    que aparece en la imagen de la interfaz presentada.
+                </p>
                 <img src="./imagenes/codificador.jpg" class="experiencia__item--image">
+                <ul class="experiencia__item--list">
+                    <li>
+                        <a class="experiencia__item--vinculo" href="https://github.com/Rodrigosaforcada/First-Challenge-Alura" target="_blank">
+                            Ir al repositorio en GitHub</a>
+                    </li>
+                    <li>
+                        <a class="experiencia__item--vinculo" href="https://rodrigosaforcada.github.io/First-Challenge-Alura/" target="_blank">
+                            Ir a la página web</a>
+                    </li>
+                </ul>
             </div>
-            <div class="experiencia__item">Ahorcado
+            <div class="experiencia__item">
+                <h4>Juego del Ahorcado</h4>
+                <p>La aplicación web consiste en presentarle al usuario una interfaz donde puede dar inicio y 
+                    resetear el juego cuando lo desee. Al iniciar la partida el sistema por debajo elije al azar 
+                    una palabra oculta y el jugador deberá teclear las letras para averiguar dicha palabra. Si 
+                    acierta todas las letras el sistema le avisará de su victoria, caso contrario, le avisará que 
+                    perdió la partida y tendrá que comenzar otra.
+                </p>
                 <img src="./imagenes/juego-ahorcado.jpg" class="experiencia__item--image">
+                <ul class="experiencia__item--list">
+                    <li>
+                        <a class="experiencia__item--vinculo" href="https://github.com/Rodrigosaforcada/JuegoDelAhorcado" target="_blank">
+                            Ir al repositorio en GitHub</a>
+                    </li>
+                    <li>
+                        <a class="experiencia__item--vinculo" href="https://rodrigosaforcada.github.io/JuegoDelAhorcado/" target="_blank">
+                            Ir a la página web</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -161,7 +178,7 @@
                 <input class="contacto__datos_input--item" id="nombre" type="text" placeholder="Nombre" required>
                 <input class="contacto__datos_input--item" id="e-mail" type="text" placeholder="E-mail" required>
                 <input class="contacto__datos_input--item" id="asunto" type="text" placeholder="Asunto" required>
-                <input class="contacto__datos_input--item contacto__datos_input--mensaje" id="mensaje" type="text" placeholder="Mensaje">
+                <input class="contacto__datos_input--item" id="mensaje" type="text" placeholder="Mensaje">
                 <button class="contacto__datos_input--boton_enviar" type="submit" id="boton-enviar" disabled>Enviar</button>
                 <label class="contacto__datos_input--label_resultado"></label>
             </div>

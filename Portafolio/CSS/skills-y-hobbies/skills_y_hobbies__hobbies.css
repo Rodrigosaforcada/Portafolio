@@ -2,3 +2,19 @@
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
 }
+
+.skills_y_hobbies__hobbies--titulo {
+    text-align: center;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+
+.skills_y_hobbies__hobbies--item {
+    background-color: coral;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.skills_y_hobbies__hobbies--image {
+    height: 110px;
+}

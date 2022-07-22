@@ -1,5 +1,24 @@
 .experiencia__item {
     background-color:chocolate;
-    height: 200px;
+    text-align: center;
+    height: 500px;
     margin: 10px;
+}
+
+.experiencia__item--list {
+    list-style: none;
+}
+
+.experiencia__item--image {
+    height: 300px;
+}
+
+.experiencia__item--vinculo {
+    display: inline-block;
+    background-color: lightgreen;
+    text-decoration: none;
+    color: purple;
+    padding: 4px 8px 4px 4px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
 }
