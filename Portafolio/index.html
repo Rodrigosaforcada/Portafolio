@@ -162,11 +162,12 @@
                 <input class="contacto__datos_input--item" id="e-mail" type="text" placeholder="E-mail" required>
                 <input class="contacto__datos_input--item" id="asunto" type="text" placeholder="Asunto" required>
                 <input class="contacto__datos_input--item contacto__datos_input--mensaje" id="mensaje" type="text" placeholder="Mensaje">
-                <button class="contacto__datos_input--boton_enviar" type="submit" >Enviar</button>
-                <label class="contacto__datos_input--label_resultado">Mensaje de exito o fracaso en el envio</label>
+                <button class="contacto__datos_input--boton_enviar" type="submit" id="boton-enviar" disabled>Enviar</button>
+                <label class="contacto__datos_input--label_resultado"></label>
             </div>
         </div>
     </section>
 </body>
 <script src="./JS/resultadoEnvio.js" type="module"></script>
+<script src="./JS/evaluarCamposVacios.js" type="module"></script>
 </html>

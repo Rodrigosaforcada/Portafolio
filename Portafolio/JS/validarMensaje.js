@@ -1,5 +1,20 @@
 export function validarMensaje(Mensaje) {
-    const regExMensaje = new RegExp('[a-z0-9]{1,20}|\\s', 'gi');
+    const regExMensaje = new RegExp('([a-zñ0-9]|\\s){1,300}', 'gi');
     console.log(regExMensaje.test(Mensaje));
-    console.log(Mensaje.match(regExMensaje));
+
+    let coincidencias = Mensaje.match(regExMensaje);
+    
+    let cantidadCaracteres = 0; 
+    
+    coincidencias.forEach(coincidencia => {
+        cantidadCaracteres += coincidencia.length;
+    });
+
+    console.log('cantidad de caracteres en Mensaje: ' + cantidadCaracteres);
+
+    if(cantidadCaracteres > 300) {
+        return false;
+    }
+
+    return Mensaje.match(regExMensaje);
 }
