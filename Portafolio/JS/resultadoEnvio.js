@@ -15,9 +15,15 @@ botonEnviar.addEventListener('click', (evento) => {
         mensaje: ""
     };
 
+    let nombreValido = false;
+    let eMailValido = false;
+    let asuntoValido = false;
+    let mensajeValido = false;
+
     const inputNombre = evento.path[1].childNodes[7].value;
 
     if(!validarNombre(inputNombre)) {
+        nombreValido = true;
         evento.path[0].nextElementSibling.innerText += 
         " Nombre debe tener la primera letra en mayúscula, el resto en minúscula y sin espacios.";
     }
@@ -25,6 +31,7 @@ botonEnviar.addEventListener('click', (evento) => {
     const inputEmail = evento.path[1].childNodes[9].value;
 
     if(!validarEmail(inputEmail)) {
+        eMailValido = true;
         evento.path[0].nextElementSibling.innerText += 
         " E-mail debe tener por lo menos 3 caracteresantes del '@', 'gmail' o 'yahoo' despues de este finalizado con ''.com y no tener espacios.";
     }
@@ -32,6 +39,7 @@ botonEnviar.addEventListener('click', (evento) => {
     const inputAsunto = evento.path[1].childNodes[11].value;
 
     if(!validarAsunto(inputAsunto)) {
+        asuntoValido = true;
         evento.path[0].nextElementSibling.innerText += 
         " Asunto no debe superar los 50 caracteres.";
     }
@@ -39,11 +47,12 @@ botonEnviar.addEventListener('click', (evento) => {
     const inputMensaje = evento.path[1].childNodes[13].value;
 
     if(!validarMensaje(inputMensaje)) {
+        mensajeValido = true;
         evento.path[0].nextElementSibling.innerText += 
         " Mensaje no debe superar los 300 caracteres.";
     }
 
-    if(inputDatos.nombre != "" && inputDatos.eMail != "" && inputDatos.asunto != "" && inputDatos.mensaje != "") {
+    if(nombreValido && eMailValido && asuntoValido && mensajeValido) {
         inputDatos.nombre = inputNombre;
         inputDatos.eMail = inputEmail;
         inputDatos.asunto = inputAsunto;

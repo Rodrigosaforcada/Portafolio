@@ -1,7 +1,6 @@
 .formacion {
-    width: 92vw;
+    background-color: rgb(240, 160, 123);
     display: grid;
-    grid-template-rows: 40px 90px;
-    margin-left: 3rem;
-    margin-bottom: 20px;
+    grid-template-rows: 40px 16rem;
+    margin-bottom: 1rem;
 }

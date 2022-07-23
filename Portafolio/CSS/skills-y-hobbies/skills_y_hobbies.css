@@ -1,6 +1,4 @@
 .skills_y_hobbies {
-    margin: 20px 20px 20px 3rem;
-    width: 95vw;
     display: grid;
     grid-template-rows: 40px 120px 40px 120px;
 }

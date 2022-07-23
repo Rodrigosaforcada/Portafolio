@@ -1,9 +1,15 @@
 .formacion__item {
-    background-color: lightgreen;
     margin-right: 1rem;
     text-align: center;
 }
 
 .formacion__item--image {
-    height: 80px;
+    height: 120px;
+}
+
+.formacion__item--contenedor_image {
+    width: 60%;
+    padding: 1rem;
+    margin: 10px 20%;
+    background-color: rgb(192, 250, 250);
 }

@@ -1,5 +1,6 @@
 .contacto__datos_input {
     font-family: Verdana, sans-serif;
+    padding-left: 1rem;
 }
 
 .contacto__datos_input--item {
@@ -9,9 +10,13 @@
 }
 
 .contacto__datos_input--boton_enviar {
+    display: block;
     font-family: Arial;
     border-radius: 10px;
     font-size: 120%;
+    background-color: rgb(20, 153, 230);
+    color: lemonchiffon;
+    margin-bottom: 10px;
 }
 .contacto__datos_input--label_resultado {
     display: block;

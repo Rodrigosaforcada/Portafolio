@@ -1,8 +1,13 @@
 .experiencia__item {
-    background-color:chocolate;
     text-align: center;
     height: 500px;
     margin: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.experiencia__item--descripcion {
+    padding: 6rem 1rem 1rem 1rem;
 }
 
 .experiencia__item--list {
@@ -10,7 +15,8 @@
 }
 
 .experiencia__item--image {
-    height: 300px;
+    height: 50%;
+    padding: 1rem;
 }
 
 .experiencia__item--vinculo {

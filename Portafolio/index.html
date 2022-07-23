@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__lista_contacto.css">
     <link rel="stylesheet" href="./CSS/presentacion/presentacion__foto.css">
     <link rel="stylesheet" href="./CSS/sobre-mi/sobre_mi.css">
+    <link rel="stylesheet" href="./CSS/sobre-mi/sobre_mi__contenedor_texto.css">
     <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies.css">
     <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__skills.css">
     <link rel="stylesheet" href="./CSS/skills-y-hobbies/skills_y_hobbies__hobbies.css">
@@ -26,6 +27,7 @@
     <link rel="stylesheet" href="./CSS/experiencia-en-programacion/experiencia__item.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__contenedor.css">
+    <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__contenedor_imagen.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input.css">
     <title>Portafolio</title>
 </head>
@@ -112,67 +114,79 @@
         </div>
     </section>
     <section class="formacion" id="formacion">
-        <h2 class="formacion__titulo">Formacion</h2>
+        <h2 class="formacion__titulo">Formación</h2>
         <div class="formacion__contenedor_formaciones">
             <div class="formacion__item">
-                <img src="./imagenes/utn.png" class="formacion__item--image">
+                <div class="formacion__item--contenedor_image">
+                    <img src="./imagenes/utn.png" class="formacion__item--image">
+                </div>
+                <h3>Universidad Tecnológica Nacional</h3>
+                <p>2020 - 2022</p>
             </div>
             <div class="formacion__item">
-                <img src="./imagenes/alura.png" class="formacion__item--image">
+                <div class="formacion__item--contenedor_image">
+                    <img src="./imagenes/alura.png" class="formacion__item--image">
+                </div>
+                <h3>Academia Alura</h3>
+                <p>04/2022 - 07/2022</p>
             </div>
         </div>
     </section>
     <section class="experiencia" id="experiencia">
-        <h2 class="experiencia__titulo">Experiencia</h2>
+        <h2 class="experiencia__titulo">Experiencia Profesional</h2>
         <div class="experiencia__contenedor_proyectos">
             <div class="experiencia__item">
-                <h4>Codificador</h4>
-                <p>La aplicación web ofrece el usuario escribir un mensaje y convertirlo en un texto codificado 
-                    que solo podrá ser decodificado por otra persona que conozca y use la misma aplicación. El 
-                    algoritmo que perite codificar el mensaje se ejecuta al clickear sobre el respectivo botón 
-                    que aparece en la imagen de la interfaz presentada.
-                </p>
+                <div class="experiencia__item--descripcion">
+                    <h4>Codificador</h4>
+                    <p>La aplicación web ofrece el usuario escribir un mensaje y convertirlo en un texto codificado 
+                        que solo podrá ser decodificado por otra persona que conozca y use la misma aplicación. El 
+                        algoritmo que perite codificar el mensaje se ejecuta al clickear sobre el respectivo botón 
+                        que aparece en la imagen de la interfaz presentada.
+                    </p>
+                    <ul class="experiencia__item--list">
+                        <li>
+                            <a class="experiencia__item--vinculo" href="https://github.com/Rodrigosaforcada/First-Challenge-Alura" target="_blank">
+                                Ir al repositorio en GitHub</a>
+                        </li>
+                        <li>
+                            <a class="experiencia__item--vinculo" href="https://rodrigosaforcada.github.io/First-Challenge-Alura/" target="_blank">
+                                Ir a la página web</a>
+                        </li>
+                    </ul>
+                </div>
                 <img src="./imagenes/codificador.jpg" class="experiencia__item--image">
-                <ul class="experiencia__item--list">
-                    <li>
-                        <a class="experiencia__item--vinculo" href="https://github.com/Rodrigosaforcada/First-Challenge-Alura" target="_blank">
-                            Ir al repositorio en GitHub</a>
-                    </li>
-                    <li>
-                        <a class="experiencia__item--vinculo" href="https://rodrigosaforcada.github.io/First-Challenge-Alura/" target="_blank">
-                            Ir a la página web</a>
-                    </li>
-                </ul>
             </div>
             <div class="experiencia__item">
-                <h4>Juego del Ahorcado</h4>
-                <p>La aplicación web consiste en presentarle al usuario una interfaz donde puede dar inicio y 
-                    resetear el juego cuando lo desee. Al iniciar la partida el sistema por debajo elije al azar 
-                    una palabra oculta y el jugador deberá teclear las letras para averiguar dicha palabra. Si 
-                    acierta todas las letras el sistema le avisará de su victoria, caso contrario, le avisará que 
-                    perdió la partida y tendrá que comenzar otra.
-                </p>
                 <img src="./imagenes/juego-ahorcado.jpg" class="experiencia__item--image">
-                <ul class="experiencia__item--list">
-                    <li>
-                        <a class="experiencia__item--vinculo" href="https://github.com/Rodrigosaforcada/JuegoDelAhorcado" target="_blank">
-                            Ir al repositorio en GitHub</a>
-                    </li>
-                    <li>
-                        <a class="experiencia__item--vinculo" href="https://rodrigosaforcada.github.io/JuegoDelAhorcado/" target="_blank">
-                            Ir a la página web</a>
-                    </li>
-                </ul>
+                <div class="experiencia__item--descripcion">
+                    <h4>Juego del Ahorcado</h4>
+                    <p>La aplicación web consiste en presentarle al usuario una interfaz donde puede dar inicio y 
+                        resetear el juego cuando lo desee. Al iniciar la partida el sistema por debajo elije al azar 
+                        una palabra oculta y el jugador deberá teclear las letras para averiguar dicha palabra. Si 
+                        acierta todas las letras el sistema le avisará de su victoria, caso contrario, le avisará que 
+                        perdió la partida y tendrá que comenzar otra.
+                    </p>
+                    <ul class="experiencia__item--list">
+                        <li>
+                            <a class="experiencia__item--vinculo" href="https://github.com/Rodrigosaforcada/JuegoDelAhorcado" target="_blank">
+                                Ir al repositorio en GitHub</a>
+                        </li>
+                        <li>
+                            <a class="experiencia__item--vinculo" href="https://rodrigosaforcada.github.io/JuegoDelAhorcado/" target="_blank">
+                                Ir a la página web</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
     <section class="contacto" id="contacto">
         <div class="contacto__contenedor">
-            <div class="contacto__imagen">
+            <div class="contacto__contenedor_imagen">
                 <img src="./imagenes/atender-telefono.jpg">
             </div>
             <div class="contacto__datos_input">
-                <label>Conoscámonos</label>
+                <h2>Conoscámonos</h2>
                 <p>Puedo ayudarte a que ganes visibilidad en la red.</p>
                 <p>Completa el siguiente formulario para hacerlo posible:</p>
                 <input class="contacto__datos_input--item" id="nombre" type="text" placeholder="Nombre" required>
