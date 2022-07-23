@@ -1,6 +1,7 @@
 .skills_y_hobbies__skills {
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
+    padding-left: 10%;
 }
 
 .skills_y_hobbies__skills--titulo {
@@ -12,7 +13,9 @@
     background-color: lightblue;
     margin-right: 1rem;
     margin-bottom: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skills_y_hobbies__skills--image {

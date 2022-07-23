@@ -1,4 +1,4 @@
 .presentacion__contenedor {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
