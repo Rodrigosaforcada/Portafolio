@@ -23,3 +23,14 @@
     font-family: Italic;
     color: tomato;
 }
+
+@media screen and (max-width: 768px){
+    .contacto__contenedor {
+        grid-template-columns: 100%;
+    }
+
+    .contacto__datos_input--item {
+        width: 90vw;
+        margin-bottom: 1rem;
+    }
+}

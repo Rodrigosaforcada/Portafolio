@@ -14,3 +14,9 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 768px){
+    .menu_principal__lista--item_oculto {
+        display: none;
+    }
+}

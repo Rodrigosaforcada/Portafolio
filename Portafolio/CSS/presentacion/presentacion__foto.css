@@ -2,3 +2,9 @@
     height: 25rem;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 768px){
+    .presentacion__foto {
+        height: 15rem;
+    }
+}

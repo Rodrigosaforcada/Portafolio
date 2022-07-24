@@ -52,7 +52,7 @@ botonEnviar.addEventListener('click', (evento) => {
         " Mensaje no debe superar los 300 caracteres.";
     }
 
-    if(nombreValido && eMailValido && asuntoValido && mensajeValido) {
+    if(!nombreValido && !eMailValido && !asuntoValido && !mensajeValido) {
         inputDatos.nombre = inputNombre;
         inputDatos.eMail = inputEmail;
         inputDatos.asunto = inputAsunto;

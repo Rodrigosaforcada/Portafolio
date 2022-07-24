@@ -29,16 +29,17 @@
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__contenedor.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__contenedor_imagen.css">
     <link rel="stylesheet" href="./CSS/formulario-contacto/contacto__datos_input.css">
+    <link rel="stylesheet" href="./CSS/rodapie.css">
     <title>Portafolio</title>
 </head>
 <body>
     <section class="menu_principal">
         <ul class="menu_principal__lista">
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#sobre-mi">Sobre mi</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#skills">Skills</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#hobbies">Hobbies</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#formacion">Formación</a></li>
-            <li class="menu_principal__lista--item"><a class="menu_principal__lista--vinculo" href="#experiencia">Proyectos</a></li>
+            <li class="menu_principal__lista--item menu_principal__lista--item_oculto"><a class="menu_principal__lista--vinculo" href="#sobre-mi">Sobre mi</a></li>
+            <li class="menu_principal__lista--item menu_principal__lista--item_oculto"><a class="menu_principal__lista--vinculo" href="#skills">Skills</a></li>
+            <li class="menu_principal__lista--item menu_principal__lista--item_oculto"><a class="menu_principal__lista--vinculo" href="#hobbies">Hobbies</a></li>
+            <li class="menu_principal__lista--item menu_principal__lista--item_oculto"><a class="menu_principal__lista--vinculo" href="#formacion">Formación</a></li>
+            <li class="menu_principal__lista--item menu_principal__lista--item_oculto"><a class="menu_principal__lista--vinculo" href="#experiencia">Proyectos</a></li>
             <li class="menu_principal__lista--item">saforcadarodrigo@gmail.com</li>
         </ul>
     </section>
@@ -62,9 +63,14 @@
     <section class="sobre_mi" id="sobre-mi">
         <div class="sobre_mi__contenedor_texto">
             <p class="sobre_mi__descripcion_breve">
+                Nací y vivo actualmente en Argentina, donde estudio informática en la Universidad Tecnólogica Nacional, donde exploro 
+                y profundizo sobre las distintas formas de programar y desarrollar poroyectos, de los cuales me especializo principalmente
+                en el desarrollo de páginas web.  
+            </p>
+            <p class="sobre_mi__descripcion_breve">
                 Tras estudiar durante tres años Administración de Empresas, me di cuenta de que debia enfocarme en aprender las nuevas 
                 tecnologias que estaban transformando la economia mundial, y entre ellas una de las mas solicitadas era la creación,
-                personalización y mantenimiento de páginas web. 
+                personalización y mantenimiento de páginas web.
             </p>
             <p class="sobre_mi__descripcion_breve">
                 Por eso mismo, me dedico a su estudio e implementación para que aquellas personas u organizaciones que necesiten dar 
@@ -133,7 +139,7 @@
                     <img src="./imagenes/alura.png" class="formacion__item--image">
                 </div>
                 <h3>Academia Alura</h3>
-                <p>04/2022 - 07/2022</p>
+                <p>04/2022 - 10/2022</p>
             </div>
         </div>
     </section>
@@ -188,7 +194,7 @@
     <section class="contacto" id="contacto">
         <div class="contacto__contenedor">
             <div class="contacto__contenedor_imagen">
-                <img src="./imagenes/atender-telefono.jpg">
+                <img src="./imagenes/atender-telefono.jpg" class="contacto__contenedor_imagen--imagen">
             </div>
             <div class="contacto__datos_input">
                 <h2>Conozcámonos</h2>
@@ -203,6 +209,10 @@
             </div>
         </div>
     </section>
+    <div class="rodapie">
+        <p>Desarrollado por Rodrigo Saforcada</p>
+        <p>2022</p>
+    </div>
 </body>
 <script src="./JS/resultadoEnvio.js" type="module"></script>
 <script src="./JS/evaluarCamposVacios.js" type="module"></script>

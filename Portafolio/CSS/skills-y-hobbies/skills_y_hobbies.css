@@ -2,3 +2,9 @@
     display: grid;
     grid-template-rows: 40px 160px 40px 160px;
 }
+
+@media screen and (max-width: 768px){
+    .skills_y_hobbies {
+        grid-template-rows: 40px 320px 40px 320px;
+    }
+}
