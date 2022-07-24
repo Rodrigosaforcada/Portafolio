@@ -8,3 +8,10 @@
         height: 15rem;
     }
 }
+
+@media screen and (max-width: 360px){
+    .presentacion__foto {
+        height: 12rem;
+        grid-area: foto;
+    }
+}

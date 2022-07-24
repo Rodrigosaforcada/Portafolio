@@ -46,3 +46,14 @@
     }
 
 }
+
+@media screen and (max-width: 360px){
+    .experiencia__item {
+        grid-template-rows: 80px 350px;
+        margin-bottom: 100px;
+    }
+
+    .experiencia__item--image {
+        height: 45vw;
+    }
+}

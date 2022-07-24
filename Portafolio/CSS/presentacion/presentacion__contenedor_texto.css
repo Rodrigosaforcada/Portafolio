@@ -12,3 +12,10 @@
     font-size: 105%;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 360px){
+    .presentacion__contenedor_texto {
+        width: 95vw;
+        grid-area: descripccion;
+    }
+}

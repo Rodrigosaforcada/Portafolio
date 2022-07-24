@@ -27,3 +27,9 @@
         grid-template-columns: 30% 30% 30%;
     }
 }
+
+@media screen and (max-width: 360px){
+    .skills_y_hobbies__skills {
+        grid-template-columns: 50% 50%;
+    }
+}

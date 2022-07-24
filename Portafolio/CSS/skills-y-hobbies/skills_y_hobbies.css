@@ -8,3 +8,9 @@
         grid-template-rows: 40px 320px 40px 320px;
     }
 }
+
+@media screen and (max-width: 360px){
+    .skills_y_hobbies {
+        grid-template-rows: 40px 480px 40px 480px;
+    }
+}

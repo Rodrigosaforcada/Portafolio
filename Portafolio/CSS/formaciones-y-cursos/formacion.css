@@ -4,3 +4,10 @@
     grid-template-rows: 40px 16rem;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 360px){
+    .formacion {
+        grid-template-rows: 40px 32rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -3,3 +3,9 @@
     margin: 1rem 0;
     padding:  1rem calc(20vw/2);
 }
+
+@media screen and (max-width: 360px){
+    .sobre_mi {
+        margin: 0 0 1rem 0;
+    }
+}

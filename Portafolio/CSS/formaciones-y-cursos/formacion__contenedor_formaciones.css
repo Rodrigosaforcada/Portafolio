@@ -2,3 +2,9 @@
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+@media screen and (max-width: 360px){
+    .formacion__contenedor_formaciones {
+        grid-template-columns: 100%;
+    }
+}

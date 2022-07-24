@@ -20,3 +20,9 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 360px){
+    .menu_principal__lista {
+        font-size: 75%;
+    }
+}
