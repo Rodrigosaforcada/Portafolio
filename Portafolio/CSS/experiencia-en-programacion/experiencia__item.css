@@ -28,3 +28,21 @@
     border-radius: 4px;
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 768px){
+    .experiencia__item {
+        grid-template-columns: 100%;
+        grid-template-rows: 250px 500px;
+        margin-bottom: 8rem;
+    }
+    
+    .experiencia__contenedor_imagen {
+        width: 95vw;
+        text-align: center;
+    }
+
+    .experiencia__item--image {
+        height: 40vw;
+    }
+
+}
