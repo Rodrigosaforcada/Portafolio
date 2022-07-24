@@ -32,4 +32,8 @@
     .skills_y_hobbies__skills {
         grid-template-columns: 50% 50%;
     }
+
+    .skills_y_hobbies__skills--image_ajuste_celular {
+        height: 100px;
+    }
 }
